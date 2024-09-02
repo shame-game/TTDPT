@@ -3113,10 +3113,6 @@ footer .top_footer .social_media li a:hover {
     color: var(--purple);
 }
 
-footer .top_footer .try_out {
-    margin-left: -20px;
-}
-
 footer .app_btn li a {
     display: block;
     padding: 12px 10px;
