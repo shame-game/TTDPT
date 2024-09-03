@@ -29858,7 +29858,7 @@ p {
 }
 
 .logo {
-  max-width: 180px
+  max-width: 200px
 }
 
 .swiper-container .swiper-pagination-top {
@@ -29923,4 +29923,21 @@ hr {
     font-weight: 400 !important;
     text-align: center
   }
+}
+
+.vamimage{
+  object-fit: cover;
+  aspect-ratio: 12/16;
+  border-radius: 5px;
+  overflow: hidden;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.vamproduct{
+  object-fit: cover;
+  border-radius: 5px;
+  overflow: hidden;
+  background-size: cover !important;
+  background-position: center !important;
 }
