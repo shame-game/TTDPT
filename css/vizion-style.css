@@ -62,7 +62,7 @@ General
 
 /* HTML Tags */
 a {
-    color: #ff6159;
+    color: #e0b341;
     outline: none;
 }
 
@@ -98,7 +98,7 @@ hr {
 blockquote {
     background: none;
     padding: 15px 30px;
-    border-left: 5px solid #ff6159;
+    border-left: 5px solid #e0b341;
     margin-bottom: 30px;
 }
 
@@ -116,7 +116,7 @@ blockquote .blockquote-footer {
 }
 
 blockquote .blockquote-footer cite {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 p {
@@ -197,7 +197,7 @@ textarea {
 }
 
 select {
-    border: 2px solid #ff6159;
+    border: 2px solid #e0b341;
     background: #ced4da;
     line-height: 48px;
     height: 48px;
@@ -224,7 +224,7 @@ input[type=email]:focus,
 input[type=search]:focus,
 input[type=password]:focus,
 textarea:focus {
-    border-color: #ff6159;
+    border-color: #e0b341;
     box-shadow: none;
     outline: none;
 }
@@ -277,7 +277,7 @@ input[type=submit],
     line-height: 2;
     border: none;
     position: relative;
-    background-color: #ff6159;
+    background-color: #e0b341;
     background-size: 200% auto;
     font-family: 'Open Sans', sans-serif;
     display: inline-block;
@@ -426,7 +426,7 @@ Back to Top
 }
 
 #back-to-top .top:hover {
-    background: #ff6159;
+    background: #e0b341;
     color: #ffffff;
     -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
@@ -530,13 +530,13 @@ Buttons
 }
 
 .iq-video {
-    border: 1px solid #ff6159;
+    border: 1px solid #e0b341;
     display: inline-block;
     width: 48px;
     height: 48px;
     text-align: center;
     font-size: 29px;
-    color: #ff6159 !important;
+    color: #e0b341 !important;
     border-radius: 100% !important;
     line-height: 1.6;
     background-color: #ffffff !important;
@@ -548,7 +548,7 @@ Buttons
 
 .iq-video:hover {
     color: #ffffff !important;
-    background-color: #ff6159 !important;
+    background-color: #e0b341 !important;
 }
 
 /*---------------------------------------------------------------------
@@ -621,14 +621,16 @@ header .navbar .navbar-nav {
 header .navbar .navbar-nav>li {
     margin: 0px 30px;
     position: relative;
+
 }
 
 header .navbar .navbar-nav>li:last-child {
     margin-right: 0;
+
 }
 
 header .navbar .navbar-nav .nav-item a {
-    color: #1e1e1e;
+    color: #ffffff !important;
     padding: 10px 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -640,12 +642,12 @@ header .navbar .navbar-nav .dropdown-menu a.active,
 header .navbar .navbar-nav .dropdown-menu a.active:focus,
 header .navbar .navbar-nav .dropdown-menu a.active:hover {
     color: white;
-    background: #ff6159;
+    background: #e1b443;
     box-shadow: none;
 }
 
 header .navbar .navbar-nav .nav-item a::before {
-    background: #ff6159;
+    background: #e1b443;
     bottom: 0;
     content: "";
     height: 2px;
@@ -723,7 +725,7 @@ header li .search-box input[type="search"]:focus {
     z-index: 1;
     cursor: text;
     border: 1px solid;
-    border-color: #ff6159;
+    border-color: #e0b341;
     background: #ffffff;
     z-index: 9;
     color: rgba(102, 102, 102, 0.6);
@@ -791,7 +793,7 @@ header .navbar ul li .sub-menu li i:before {
 }
 
 header .navbar ul li .sub-menu li:hover>a {
-    background: #ff6159;
+    background: #e0b341;
     color: #ffffff;
 }
 
@@ -814,7 +816,7 @@ header .navbar ul li.current-menu-item a,
 header .navbar ul li.current-menu-parent a,
 header .navbar ul li.current-menu-parent i,
 header .navbar ul li.current-menu-item i {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 header .navbar .sub-main .blue-btn.button {
@@ -829,7 +831,7 @@ header .navbar .sub-main ul.shop_list li .cart_count #mini-cart-count:before {
     border-radius: 90px;
     z-index: -1;
     right: 0;
-    background: #ff6159;
+    background: #e0b341;
 }
 
 header .navbar .sub-main ul.shop_list li .cart_count #mini-cart-count {
@@ -936,7 +938,7 @@ header .dropdown-toggle::after {
 /* Toggler  Button */
 header .navbar-toggler {
     padding: 2px 10px;
-    background: #ff6159;
+    background: #e0b341;
 }
 
 header button:focus {
@@ -1086,7 +1088,7 @@ counter
 -----------------------------------------------------------------------*/
 .share-box ul li:hover {
     background-size: 200% auto;
-    background: #ff6159;
+    background: #e0b341;
     box-shadow: 0px 10px 20px 0px rgba(0, 120, 255, 0.4);
 }
 
@@ -1095,7 +1097,7 @@ counter
 }
 
 .share-box ul li a {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .share-box ul li {
@@ -1177,7 +1179,7 @@ Team
     height: 45px;
     line-height: 45px;
     background: #ffffff;
-    color: #ff6159;
+    color: #e0b341;
     border-radius: 90px;
     text-align: center;
     display: inline-block;
@@ -1185,7 +1187,7 @@ Team
 
 .iq-team .share ul li a:hover {
     color: #ffffff;
-    background: #ff6159;
+    background: #e0b341;
 }
 
 .iq-team .iq-team-img {
@@ -1246,11 +1248,11 @@ blog post
 }
 
 .post-details .post-img .post-blog .blog-box ul li a i {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .post-details .post-img .post-blog a.new-link:hover h5 {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .post-details .post-blog {
@@ -1342,7 +1344,7 @@ Blog
 }
 
 .blog-box .content ul li a:hover {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .blog-box .content ul li span {
@@ -1369,7 +1371,7 @@ Blog
 }
 
 .blog-box ul.iq-tag li a:hover {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .blog-box .row-eq-height {
@@ -1472,7 +1474,7 @@ footer .widget ul.menu li a {
 
 footer .widget ul.menu li a:hover,
 footer .social-icone ul li a:hover {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 footer .widget ul li a:before {
@@ -1542,7 +1544,7 @@ footer.footer2 input[type="submit"] {
     right: 30px;
     bottom: 0px;
     background: #ffffff;
-    color: #ff6159;
+    color: #e0b341;
     padding: 11px 40px;
 }
 
@@ -1570,7 +1572,7 @@ footer .info-share a {
     height: 45px;
     line-height: 45px;
     font-size: 16px;
-    color: #ff6159;
+    color: #e0b341;
     background: #ffffff;
     text-align: center;
     border: 1px solid transparent;
@@ -1580,7 +1582,7 @@ footer .info-share a {
 footer.footer2 .info-share a:hover {
     border: 1px solid #333333;
     background: #333333;
-    color: #ff6159;
+    color: #e0b341;
 }
 
 footer.footer2 input[type=email]::-webkit-input-placeholder {
@@ -1689,7 +1691,7 @@ footer.footer3 .footer-logo {
 
 footer.footer3 .widget ul.menu li a:hover,
 footer.footer3 .social-icone ul li a:hover {
-    color: #ff6159
+    color: #e0b341
 }
 
 footer.footer3 .footer-title {
@@ -1743,7 +1745,7 @@ footer.construction .copyright {
 
 footer.construction a:hover,
 footer.construction .iq-contact li a:hover {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 footer.construction ul.info-share.d-inline {
@@ -1820,7 +1822,7 @@ Breadcrumb
 /* Breadcrumb Style Two */
 .iq-breadcrumb-two {
     padding: 120px 0 120px;
-    background: #ff6159;
+    background: #e0b341;
     position: relative;
 }
 
@@ -1867,7 +1869,7 @@ Breadcrumb
 
 .iq-breadcrumb-two.text-left .breadcrumb li,
 .iq-breadcrumb-two.text-left .breadcrumb li a:hover {
-    color: #ff6159;
+    color: #e0b341;
     text-decoration: none;
 }
 
@@ -1890,14 +1892,14 @@ Breadcrumb
 
 /* Breadcrumb Style Five */
 .iq-breadcrumb-five {
-    padding: 150px 0 120px;
+    padding: 100px 0;
     background: #d5d5d5;
     position: relative;
 }
 
 .iq-breadcrumb-five .title {
     font-size: 50px;
-    color: #ff6159;
+    color: #e0b341;
     margin-bottom: 15px;
 }
 
@@ -1988,7 +1990,7 @@ Blog - SideBar
     position: absolute;
     right: 0;
     top: 0;
-    color: #ff6159;
+    color: #e0b341;
     cursor: pointer;
     padding: 5px 15px;
     font-size: 18px;
@@ -2039,14 +2041,14 @@ Blog - SideBar
 }
 
 .widget ul li a:hover {
-    color: #ff6159;
+    color: #e0b341;
     text-decoration: none;
 }
 
 .widget ul li a:before {
     position: absolute;
     content: "\f111";
-    color: #ff6159;
+    color: #e0b341;
     top: 9px;
     font-size: 5px;
     left: 0;
@@ -2060,7 +2062,7 @@ Blog - SideBar
 }
 
 .widget ul li a:hover:before {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 /*SideBar - Recent Comments*/
@@ -2074,12 +2076,12 @@ Blog - SideBar
 }
 
 .widget.widget_recent_comments #recentcomments li.recentcomments a {
-    color: #ff6159;
+    color: #e0b341;
     padding-left: 0;
 }
 
 .widget.widget_recent_comments #recentcomments li.recentcomments a:hover {
-    color: #ff6159;
+    color: #e0b341;
     text-decoration: underline !important;
     padding-left: 0;
 }
@@ -2102,7 +2104,7 @@ Blog - SideBar
 }
 
 .widget_calendar .calendar_wrap td#today {
-    background: #ff6159;
+    background: #e0b341;
     color: #ffffff;
 }
 
@@ -2125,7 +2127,7 @@ Blog - SideBar
 .widget_categories ul li,
 .widget_archive ul li {
     font-weight: 400;
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .widget_categories ul li a,
@@ -2154,7 +2156,7 @@ Blog - SideBar
 .widget.widget_rss ul li a {
     padding-left: 0;
     font-size: 16px;
-    color: #ff6159;
+    color: #e0b341;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
 }
@@ -2205,7 +2207,7 @@ Blog - SideBar
     padding: 10px 0 10px 15px;
     display: inline-block;
     width: 100%;
-    border-bottom: 1px solid #ff6159;
+    border-bottom: 1px solid #e0b341;
 }
 
 .widget.widget_nav_menu ul li i,
@@ -2241,7 +2243,7 @@ Blog - SideBar
     display: inline-block;
     color: #333333;
     padding: 2px 15px;
-    border: 1px solid #ff6159;
+    border: 1px solid #e0b341;
     border-radius: 90px;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -2251,8 +2253,8 @@ Blog - SideBar
 }
 
 .widget_tag_cloud ul li a:hover {
-    border-color: #ff6159;
-    background: #ff6159;
+    border-color: #e0b341;
+    background: #e0b341;
     color: #ffffff;
     padding: 2px 15px;
 }
@@ -2342,7 +2344,7 @@ Latest Blog Post
 }
 
 .entry-title a:hover {
-    color: #ff6159;
+    color: #e0b341;
     text-decoration: none;
 }
 
@@ -2369,7 +2371,7 @@ Latest Blog Post
     display: inline-block;
     width: 100%;
     height: 100%;
-    border: 2px solid #ff6159;
+    border: 2px solid #e0b341;
     z-index: 0;
 }
 
@@ -2406,7 +2408,7 @@ Latest Blog Post
 
 .iq-blog-box .iq-blog-detail a:hover h6,
 .iq-blog-box .iq-blog-detail a:hover {
-    color: #ff6159;
+    color: #e0b341;
     text-decoration: none;
 }
 
@@ -2449,7 +2451,7 @@ Latest Blog Post
 
 .Vizion-recentblog .iq-blog-box .iq-blog-detail .blog-title h5 a:hover {
     text-decoration: none;
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .iq-blog-box .iq-blog-image {
@@ -2477,7 +2479,7 @@ Latest Blog Post
 }
 
 .iq-blog-detail .blog-content a {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .blog-button {
@@ -2512,7 +2514,7 @@ Latest Blog Post
 
 .iq-blog-meta ul.list-inline li i {
     margin-right: 5px;
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .iq-blog-meta ul.list-inline li a {
@@ -2525,7 +2527,7 @@ Latest Blog Post
 
 .iq-blog-meta ul.list-inline li a:hover,
 .iq-blog-meta ul.list-inline li:hover {
-    color: #ff6159;
+    color: #e0b341;
     text-decoration: none;
 }
 
@@ -2591,13 +2593,13 @@ object {
 .iq-blog-detail .blog-content .page-links a:hover {
     text-decoration: none;
     border-color: transparent;
-    background: #ff6159;
+    background: #e0b341;
     color: #ffffff;
 }
 
 .iq-blog-detail .blog-content .page-links>span.page-number,
 .page-links>span.page-number {
-    background: #ff6159;
+    background: #e0b341;
     color: #ffffff;
 }
 
@@ -2710,8 +2712,8 @@ object {
     z-index: 2;
     color: #fff;
     text-decoration: none;
-    background-color: #ff6159;
-    border-color: #ff6159
+    background-color: #e0b341;
+    border-color: #e0b341
 }
 
 .page-numbers li .page-numbers:focus {
@@ -2732,7 +2734,7 @@ object {
     -ms-transition: all 0.5s ease-out 0s;
     -o-transition: all 0.5s ease-out 0s;
     transition: all 0.5s ease-out 0s;
-    background: #ff6159;
+    background: #e0b341;
 }
 
 /*---------------------------------------------------------------------
@@ -2761,7 +2763,7 @@ Blog Page Comments
     left: 0;
     width: 60px;
     height: 2px;
-    background: #ff6159;
+    background: #e0b341;
 }
 
 .comment-respond .comment-reply-title a {
@@ -2771,7 +2773,7 @@ Blog Page Comments
 }
 
 .comment-respond .comment-reply-title a:hover {
-    color: #ff6159;
+    color: #e0b341;
     text-decoration: none;
 }
 
@@ -2798,7 +2800,7 @@ ol.commentlist .pingback a {
 }
 
 ol.commentlist .pingback a:hover {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .commentlist li .comment-respond {
@@ -2845,7 +2847,7 @@ ol.commentlist .pingback a:hover {
 .commentlist .iq-comments-info .title {
     margin: 0;
     font-size: 20px;
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .commentlist .iq-comments-info .title a:hover {
@@ -2866,7 +2868,7 @@ ol.commentlist .pingback a:hover {
 }
 
 .commentlist .iq-comment-metadata a:hover {
-    color: #ff6159;
+    color: #e0b341;
     text-decoration: none;
 }
 
@@ -2884,7 +2886,7 @@ ol.commentlist .pingback a:hover {
     top: 30px;
     font-weight: 500;
     color: #fff;
-    background: #ff6159;
+    background: #e0b341;
     -webkit-border-radius: 90px;
     -moz-border-radius: 90px;
     border-radius: 90px;
@@ -3034,7 +3036,7 @@ OWL Carousel
 }
 
 .owl-carousel .owl-nav i:hover {
-    background: #ff6159;
+    background: #e0b341;
     color: #fff;
 }
 
@@ -3082,12 +3084,12 @@ OWL Carousel
 }
 
 .owl-carousel .owl-dots .owl-dot:hover {
-    background: #ff6159;
+    background: #e0b341;
     border: 1px solid #ffffff;
 }
 
 .owl-carousel .owl-dots .owl-dot.active {
-    background: #ff6159;
+    background: #e0b341;
     border: 1px solid #ffffff;
 }
 
@@ -3183,7 +3185,7 @@ list Style
     font-size: 24px;
     margin-top: 5px;
     margin-right: 15px;
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .iq-list li span {
@@ -3242,7 +3244,7 @@ Contact Us
 -----------------------------------------------------------------------*/
 .contact-block .vc_column-inner {
     margin-left: 45px;
-    background: #ff6159;
+    background: #e0b341;
     padding: 30px !important;
 }
 
@@ -3289,7 +3291,7 @@ Login Page
 -----------------------------------------------------------------------*/
 .login-block .iq-login {
     background: #e8f8f2;
-    border: 2px solid #ff6159;
+    border: 2px solid #e0b341;
     padding: 28px;
 }
 
@@ -3376,7 +3378,7 @@ Pricing
 
 .pricing-box .price-blog {
     position: relative;
-    background: #ff6159;
+    background: #e0b341;
 }
 
 .pricing-box .price-blog:before {
@@ -3633,8 +3635,8 @@ Frequently Asked Questions
 }
 
 .play-video-two a:hover {
-    border: 2px dashed #ff6159;
-    color: #ff6159;
+    border: 2px dashed #e0b341;
+    color: #e0b341;
 }
 
 .iq-accordion.faq4 .ad-title {
@@ -3724,7 +3726,7 @@ Testimonials
 
 .feedback .carousel-control-next,
 .feedback .carousel-control-prev {
-    color: #ff6159;
+    color: #e0b341;
     font-size: 20px;
     bottom: 24px;
     top: inherit;
@@ -3759,7 +3761,7 @@ Title
 }
 
 .title-box.style-two span {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .title-box.style-two .title {
@@ -3845,7 +3847,7 @@ Title
 }
 
 .list-group.list-group-flush li a:hover {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 
@@ -3868,18 +3870,18 @@ woocommerce
 
 .woocommerce-message,
 .woocommerce-info {
-    border-top-color: #ff6159;
+    border-top-color: #e0b341;
     line-height: 2.8em;
     background: #f5f7fb;
 }
 
 .woocommerce-message::before,
 .woocommerce-info::before {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .woocommerce .woocommerce-message .button {
-    background: #ff6159;
+    background: #e0b341;
     color: #ffffff;
     font-weight: 500;
 }
@@ -3931,7 +3933,7 @@ Product
 .woocommerce span.onsale,
 .woocommerce ul.products li.product .onsale {
     color: #fff;
-    background: #ff6159;
+    background: #e0b341;
     text-transform: uppercase;
     padding: 5px 10px;
     text-align: center;
@@ -4038,7 +4040,7 @@ Product
 
 .woocommerce ul.products li.product .iq-product-block .button:hover,
 .woocommerce a.added_to_cart:hover {
-    background: #ff6159;
+    background: #e0b341;
     color: #ffffff;
 }
 
@@ -4072,7 +4074,7 @@ Product
 
 .yith-wcwl-add-to-wishlist .yith-wcwl-add-button.hide a:before,
 .yith-wcwl-add-to-wishlist .yith-wcwl-add-button a:hover:before {
-    color: #ff6159;
+    color: #e0b341;
     text-decoration: none;
 }
 
@@ -4093,7 +4095,7 @@ Product
 }
 
 .woocommerce ul li.product .iq-product-block .product-caption h3 a:hover {
-    color: #ff6159;
+    color: #e0b341;
     text-decoration: none;
 }
 
@@ -4171,8 +4173,8 @@ woocommerce Pagination
 .woocommerce nav.woocommerce-pagination ul li a:hover,
 .woocommerce nav.woocommerce-pagination ul li span.current {
     color: #fff;
-    background-color: #ff6159;
-    border-color: #ff6159;
+    background-color: #e0b341;
+    border-color: #e0b341;
 }
 
 .woocommerce div.product .woocommerce-tabs ul.tabs li a {
@@ -4211,9 +4213,9 @@ Tab products
 }
 
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active {
-    background: #ff6159;
+    background: #e0b341;
     color: #ffffff;
-    border-color: #ff6159;
+    border-color: #e0b341;
 }
 
 .woocommerce-Tabs-panel h2 {
@@ -4322,7 +4324,7 @@ Cart
 
 .select2-container--default .select2-results__option--highlighted[aria-selected],
 .select2-container--default .select2-results__option--highlighted[data-selected] {
-    background: #ff6159;
+    background: #e0b341;
 }
 
 .select2-container--default .select2-selection--single .select2-selection__rendered {
@@ -4339,7 +4341,7 @@ Cart
 }
 
 .order-total {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .woocommerce-input-wrapper {
@@ -4398,7 +4400,7 @@ Related products
     line-height: 28px;
     border: none;
     position: relative;
-    background: #ff6159;
+    background: #e0b341;
     font-family: 'Nunito', sans-serif;
     display: inline-block;
     -webkit-border-radius: 4px;
@@ -4472,7 +4474,7 @@ input[type=checkbox] {
 .woocommerce-MyAccount-navigation li.is-active a {
     color: #ffffff;
     text-decoration: none;
-    background: #ff6159;
+    background: #e0b341;
 }
 
 .woocommerce-MyAccount-navigation li a:before {
@@ -4535,7 +4537,7 @@ Vizion Security
 }
 
 .flaticon {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .flaticon::before {
@@ -4605,7 +4607,7 @@ Vizion Security
 }
 
 .flaticon {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .flaticon::before {
@@ -4788,7 +4790,7 @@ Vizion Security
 }
 
 .big-text {
-    color: #ff6159;
+    color: #e0b341;
     font-size: 60px;
 }
 
@@ -4849,7 +4851,7 @@ Vizion Security
 .testimonial:hover,
 .testimonial:hover::before,
 .testimonial:hover::after {
-    border-color: #ff6159;
+    border-color: #e0b341;
 }
 
 /*---------------------------------------------------------------------
@@ -4996,13 +4998,13 @@ width: 100%;} */
 }
 
 .breadcrumb-item.active {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .breadcrumb-item.active::before,
 .breadcrumb-item+.breadcrumb-item::before {
-    color: #ff6159;
-    -webkit-text-fill-color: #ff6159;
+    color: #e0b341;
+    -webkit-text-fill-color: #e0b341;
 }
 
 .iq-breadcrumb-three h2 {
@@ -5046,7 +5048,7 @@ width: 100%;} */
 }
 
 .iq-breadcrumb-three .breadcrumb li a:hover {
-    color: #ff6159;
+    color: #e0b341;
     text-decoration: none;
 }
 
@@ -5125,7 +5127,7 @@ ul {
 -----------------------------------------------------------------------*/
 span.scan {
     animation: move 3s cubic-bezier(0.15, 0.44, 0.76, 0.64);
-    background-color: #ff6159;
+    background-color: #e0b341;
     content: "";
     right: 0;
     left: 0;
@@ -5173,7 +5175,7 @@ span.scan {
     left: 0;
     top: 13px;
     border-radius: 90px;
-    background: #ff6159;
+    background: #e0b341;
     display: inline-block;
 }
 
@@ -5263,7 +5265,7 @@ span.scan {
 
 .carousel.slides>.carouselLinks li.selected a h3,
 .carousel.slides>.carouselLinks a h3:hover {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .carousel.slides>.carouselLinks li.selected a {
@@ -5414,7 +5416,7 @@ figure.effect-chico:hover p {
 -----------------------------------------------------------------------*/
 .customer-box .customer-detail .float-left h4 a:hover,
 .customer-box .customer-detail a:hover {
-    color: #ff6159;
+    color: #e0b341;
     text-decoration: none;
 }
 
@@ -5444,7 +5446,7 @@ figure.effect-chico:hover p {
 }
 
 .iq-star i {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .customer-img img {
@@ -5499,7 +5501,7 @@ figure.effect-chico:hover p {
     left: 0;
     position: absolute;
     font-size: 30px;
-    color: #ff6159;
+    color: #e0b341;
     top: 18px;
 }
 
@@ -5616,7 +5618,7 @@ challange box
 .iq-challange-box:hover,
 .iq-challange-box:hover::before,
 .iq-challange-box:hover::after {
-    border-color: #ff6159;
+    border-color: #e0b341;
 }
 
 .iq-challange-img {
@@ -5708,13 +5710,13 @@ Computer vizion contact form
     text-align: center;
     line-height: 60px;
     border-radius: 90px;
-    border: 1px solid #ff6159;
+    border: 1px solid #e0b341;
     margin-right: 30px;
 }
 
 .com-contact .future-services .future-img i {
     font-size: 20px;
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .com-contact .future-services {
@@ -5744,7 +5746,7 @@ Computer vizion contact form
 }
 
 .our-event .text-main {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .our-event ul.nav-pills li {
@@ -5754,7 +5756,7 @@ Computer vizion contact form
 .our-event .nav-pills .nav-link.active,
 .our-event .nav-pills .show>.nav-link {
     padding: 10px 18px;
-    background-color: #ff6159;
+    background-color: #e0b341;
 }
 
 .nav-pills .nav-link {
@@ -6023,7 +6025,7 @@ Blog
 
 .vizion-recentblog.v1.style-2 .iq-blog-box .iq-blog-detail a:hover h6,
 .vizion-recentblog.v1.style-2 .iq-blog-box .iq-blog-detail a:hover {
-    color: #ff6159;
+    color: #e0b341;
     text-decoration: none;
 }
 
@@ -6978,14 +6980,14 @@ Car Counter
     font-weight: 600;
     color: #ffffff;
     line-height: 45px;
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .iq-car-counter .timer-text {
     font-size: 45px;
     font-weight: 600;
     line-height: 45px;
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .iq-car-counter h6 {
@@ -7437,9 +7439,9 @@ Job Testimonial
     transition: all .3s ease-in-out 0s;
     z-index: 1;
     border-style: solid;
-    background: #ff6159;
+    background: #e0b341;
     top: 30px;
-    border-color: #ff6159 #ff6159 #ffffff #ffffff;
+    border-color: #e0b341 #e0b341 #ffffff #ffffff;
     border-width: 2px;
     transform: rotate(45deg);
 }
@@ -7474,7 +7476,7 @@ Job Blog
     right: 15px;
     font-size: 16px;
     line-height: 16px;
-    background: #ff6159;
+    background: #e0b341;
     color: #ffffff;
     padding: 8px;
     border-radius: 5px;
@@ -7500,7 +7502,7 @@ Find Job
 }
 
 #my-ajax-filter-search select:focus {
-    border-color: #ff6159;
+    border-color: #e0b341;
 }
 
 #my-ajax-filter-search form {
@@ -7561,7 +7563,7 @@ Find Job
 }
 
 #my-ajax-filter h6:hover {
-    background: #ff6159;
+    background: #e0b341;
     color: #ffffff;
 }
 
@@ -7569,7 +7571,7 @@ Find Job
     cursor: pointer;
     position: relative;
     right: 0px;
-    background: #ff6159;
+    background: #e0b341;
     display: inline-block;
     padding: 15px 44px;
     font-size: 16px;
@@ -7866,7 +7868,7 @@ Feedback Ecommerce
 }
 
 .feedback-ecommerce .nav-pills .nav-link.active.show {
-    border-color: #ff6159;
+    border-color: #e0b341;
 }
 
 .feedback-ecommerce .nav-pills .nav-link .image-box img {
@@ -8123,7 +8125,7 @@ Health Title
 }
 
 .title-health-box .sub-title {
-    color: #ff6159;
+    color: #e0b341;
     margin-bottom: 0px;
 }
 
@@ -8170,7 +8172,7 @@ Car Title
     position: absolute;
     width: 50px;
     height: 3px;
-    background: #ff6159;
+    background: #e0b341;
     content: "";
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
@@ -8288,7 +8290,7 @@ Health list Style
     font-size: 18px;
     margin-top: 0;
     margin-right: 15px;
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .iq-list-styletwo li span {
@@ -8308,7 +8310,7 @@ Health list Style
     width: 80px;
     border-radius: 100px;
     margin-right: 20px;
-    background: #ff6159;
+    background: #e0b341;
     border-bottom-right-radius: 0px;
     color: #ffffff;
 }
@@ -8346,7 +8348,7 @@ Counter
     font-weight: 800;
     color: #ffffff;
     line-height: 45px;
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .iq-health-counter .timer-text {
@@ -8521,7 +8523,7 @@ Health-Team
 }
 
 .iq-health-team .share ul li a:hover {
-    background: #ff6159;
+    background: #e0b341;
     color: #ffffff;
 }
 
@@ -8569,7 +8571,7 @@ Health Progress Bar
 }
 
 .iq-health-progbar .iq-progress-bar>span {
-    background: #ff6159 none repeat scroll 0 0;
+    background: #e0b341 none repeat scroll 0 0;
     display: block;
     height: 100%;
     width: 0;
@@ -8656,7 +8658,7 @@ Construction-Fancy-box
 }
 
 .iq-insuarance-fancybox.bg-hide:hover {
-    background: #ff6159;
+    background: #e0b341;
     color: #ffffff;
 }
 
@@ -8712,7 +8714,7 @@ Insurance-Fancy-Box
     border-radius: 90px;
     z-index: -1;
     opacity: 0.1;
-    background: #ff6159;
+    background: #e0b341;
 }
 
 .iq-insuarance-fancybox .insua-icon-bg i::before {
@@ -8745,7 +8747,7 @@ Insurance-Pricing
 }
 
 .pricing-ecom-box::before {
-    background: #ff6159;
+    background: #e0b341;
     content: "";
     height: 100%;
     width: 100%;
@@ -8801,7 +8803,7 @@ Insurance-Pricing
 }
 
 .pricing-ecom-box .listing ul::before {
-    background: #ff6159;
+    background: #e0b341;
     content: "";
     height: 100%;
     width: 100%;
@@ -8820,7 +8822,7 @@ Insurance-Pricing
 .pricing-ecom-box .listing ul li i {
     margin-right: 10px;
     font-size: 14px;
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .pricing-ecom-box .listing ul li:last-child {
@@ -8837,7 +8839,7 @@ Insurance-Pricing
 }
 
 .pricing-insuarance:hover {
-    border-color: #ff6159;
+    border-color: #e0b341;
 }
 
 .pricing-insuarance .price-head {
@@ -8923,7 +8925,7 @@ Insurance-Blog
 }
 
 .vizion-insuarance-blog .owl-carousel .iq-blog-box .iq-blog-detail {
-    border-bottom: 4px solid #ff6159;
+    border-bottom: 4px solid #e0b341;
     padding: 30px;
     position: absolute;
     left: 0;
@@ -9025,7 +9027,7 @@ Insurance-Testimonials
 
 .feedback .carousel-control-next,
 .feedback .carousel-control-prev {
-    color: #ff6159;
+    color: #e0b341;
     font-size: 20px;
     bottom: 24px;
     top: inherit;
@@ -9047,13 +9049,13 @@ Insurance-Testimonials
 }
 
 .feedback-insuarance i {
-    color: #ff6159;
+    color: #e0b341;
     display: block;
     font-size: 60px;
 }
 
 .feedback-insuarance p {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .feedback-insuarance .carousel-control-next,
@@ -9660,7 +9662,7 @@ Education-Tab
 
 .iq-education-tab .iq-prev:hover,
 .iq-education-tab .iq-next:hover {
-    background: #ff6159;
+    background: #e0b341;
     color: #fff;
 }
 
@@ -9907,7 +9909,7 @@ footer ul.menu li a {
 }
 
 footer ul.menu li a:hover {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 footer .footer-logo img {
@@ -9922,7 +9924,7 @@ footer.footer8 {
 }
 
 footer.footer8 .footer-up {
-    background: #ff6159;
+    background: #e0b341;
     margin-top: -70px;
     padding: 50px;
     border-radius: 50px;
@@ -10025,7 +10027,7 @@ footer.footer8 .widget {
 }
 
 footer.footer8 .widget ul li .rpost-widget-detail .rpost-widget-date a {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 footer.footer8 .social-icone ul li a {
@@ -10082,7 +10084,7 @@ footer.footer7 .iq-contact li a {
 }
 
 footer.footer7 .iq-contact li a:hover {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 footer.footer7 ul.info-share li {
@@ -10200,7 +10202,7 @@ footer.footer5 .widget ul.menu li a {
 
 footer.footer5 .widget ul.menu li a:hover,
 footer.footer5 .social-icone ul li a:hover {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 footer.footer5 .widget ul li a:before {
@@ -10403,7 +10405,7 @@ footer.manufacturing .info-share li a {
 }
 
 footer.manufacturing .info-share li a:hover {
-    background: #ff6159;
+    background: #e0b341;
     color: #ffffff;
 }
 
@@ -10429,7 +10431,7 @@ footer.manufacturing input[type="submit"] {
     right: 30px;
     bottom: 0px;
     background: #ffffff;
-    color: #ff6159;
+    color: #e0b341;
     padding: 11px 40px;
 }
 
@@ -10451,7 +10453,7 @@ footer.retail:before {
 }
 
 footer.retail .footer-up {
-    background: #ff6159;
+    background: #e0b341;
     margin-top: -70px;
     padding: 45px;
     border-radius: 10px;
@@ -10496,7 +10498,7 @@ footer.retail .info-share a {
 }
 
 footer.retail .info-share a:hover {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 footer.retail .info-share li {
@@ -10565,7 +10567,7 @@ footer.fashion .footer-top {
 }
 
 footer.fashion span.subscribe-sub-title {
-    color: #ff6159;
+    color: #e0b341;
     font-size: 16px;
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -10620,7 +10622,7 @@ footer.fashion .widget ul.menu li a {
 }
 
 footer.fashion .widget ul.menu li a:hover {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 footer.fashion .widget .menu li {
@@ -10637,7 +10639,7 @@ footer.fashion .copyright {
 }
 
 footer.fashion hr {
-    border-bottom: 1px solid #ff6159;
+    border-bottom: 1px solid #e0b341;
 }
 
 footer.fashion:after {
@@ -10665,7 +10667,7 @@ footer.fashion .social-icone ul li a {
 }
 
 footer.fashion .social-icone ul li a:hover {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 /*---------------------------------------------------------------------
@@ -10688,7 +10690,7 @@ Contact
 }
 
 .iq-contactinfo-box:before {
-    background: #ff6159;
+    background: #e0b341;
     content: "";
     height: 100%;
     width: 100%;
@@ -10959,7 +10961,7 @@ Car Blog
 }
 
 .vizion-carblog .iq-blog-box:hover .iq-blog-detail .blog-title a {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .vizion-carblog .iq-blog-box .iq-blog-image {
@@ -10976,7 +10978,7 @@ Car Blog
     top: 15px;
     right: 15px;
     color: #ffffff;
-    background: #ff6159;
+    background: #e0b341;
     padding: 5px 10px;
     transform: skewX(-10deg);
 }
@@ -10996,8 +10998,8 @@ Car Blog
 }
 
 .vizion-carblog .owl-carousel .owl-nav i:hover {
-    border-color: #ff6159;
-    color: #ff6159;
+    border-color: #e0b341;
+    color: #e0b341;
     background: #ffffff;
 }
 
@@ -11006,7 +11008,7 @@ Car Blog
     position: absolute;
     bottom: 0px;
     right: 0px;
-    background: #ff6159;
+    background: #e0b341;
     color: #ffffff;
     padding: 8px;
     line-height: 16px;
@@ -11040,7 +11042,7 @@ Car Blog
 
 .vizion-recentblog.tagbottom-blog .iq-blog-box .iq-blog-detail ul li i {
     margin-right: 5px;
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .vizion-recentblog.tagbottom-blog .iq-blog-box .iq-blog-detail ul li a {
@@ -11078,11 +11080,11 @@ Car image slider
 }
 
 .car-img-slider .clients-box:hover .play-car-video {
-    border-color: #ff6159;
+    border-color: #e0b341;
 }
 
 .car-img-slider .clients-box:hover .play-car-video a {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .car-img-slider .owl-carousel .owl-nav .owl-prev:hover i,
@@ -11109,8 +11111,8 @@ Car image slider
 }
 
 .car-img-slider .owl-carousel .owl-nav i:hover {
-    border-color: #ff6159;
-    color: #ff6159;
+    border-color: #e0b341;
+    color: #e0b341;
     background: transparent;
 }
 
@@ -11136,7 +11138,7 @@ Car Testimonial
 }
 
 .car-feedback-info .car-name .car-desgnation {
-    color: #ff6159;
+    color: #e0b341;
     font-size: 14px;
 }
 
@@ -11154,8 +11156,8 @@ Car Testimonial
 
 .slider-car-nav .slick-prev:hover,
 .slider-car-nav .slick-next:hover {
-    border-color: #ff6159;
-    color: #ff6159;
+    border-color: #e0b341;
+    color: #e0b341;
     background: #ffffff;
 }
 
@@ -11177,7 +11179,7 @@ Car Testimonial
 
 .slider-car-nav .slick-prev:hover::before,
 .slider-car-nav .slick-next:hover::before {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .slider-car-nav .slick-prev {
@@ -11324,7 +11326,7 @@ Construction owl-carousel
 
 .owl-carousel.our-testimonial .item.content-top .iq-testimonial .testimonial-info .sub-title {
     display: inline;
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .owl-carousel.our-testimonial .item.content-top .iq-testimonial p:before {
@@ -11414,7 +11416,7 @@ Construction
     height: 100px;
     width: 100px;
     line-height: 100px;
-    color: #ff6159;
+    color: #e0b341;
     border-radius: 900px;
     background: #ffffff;
     margin-bottom: 30px;
@@ -11434,7 +11436,7 @@ Construction
     display: block;
     height: 100%;
     width: 100%;
-    background: #ff6159;
+    background: #e0b341;
     position: absolute;
     left: -15px;
     bottom: -15px;
@@ -11452,7 +11454,7 @@ Construction
     display: block;
     height: 100%;
     width: 100%;
-    background: #ff6159;
+    background: #e0b341;
     position: absolute;
     left: -15px;
     bottom: -15px;
@@ -11486,7 +11488,7 @@ Construction
 
 .iq-portfolio-detail:hover .iq-portfolio-content {
     margin-top: -90px;
-    background: #ff6159;
+    background: #e0b341;
     box-shadow: 0px 18px 21px 0px rgba(0, 0, 0, 0.08);
 }
 
@@ -11545,7 +11547,7 @@ Construction
     height: 40px;
     border-radius: 40px;
     line-height: 40px;
-    background: #ff6159;
+    background: #e0b341;
     color: #ffffff;
     position: relative;
     float: right;
@@ -11615,7 +11617,7 @@ Construction
 
 .isotope-filters button.active,
 .isotope-filters button:hover {
-    background: #ff6159;
+    background: #e0b341;
     color: #ffffff;
     position: relative;
 }
@@ -11810,7 +11812,7 @@ Portfolio style-one
     text-align: center;
     border-radius: 4px;
     background: #ffffff;
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .iq-portfolio .portfolio-link {
@@ -11937,7 +11939,7 @@ Portfolio style-one
     -ms-transform: skewY(-2deg);
     -webkit-transform: skewY(-2deg);
     transform: skewY(-2deg);
-    background: #ff6159;
+    background: #e0b341;
     content: "";
     z-index: 1;
     transition: all 0.5s ease-in-out;
@@ -11986,7 +11988,7 @@ Portfolio style-one
 }
 
 .iq-portfolio-content .details-box a:hover .text-hover {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .iq-columns-2 .iq-portfolio .iq-portfolio-content .consult-details .consult-effect:before {
@@ -12032,7 +12034,7 @@ Portfolio style-one
     height: 40px;
     line-height: 40px;
     display: inline-block;
-    color: #ff6159;
+    color: #e0b341;
     -webkit-transition: all 0.25s ease-in-out 0s;
     -moz-transition: all 0.25s ease-in-out 0s;
     transition: all 0.25s ease-in-out 0s;
@@ -12064,7 +12066,7 @@ Portfolio style-one
 
 .share-social li:hover {
     background-size: 200% auto;
-    background: #ff6159
+    background: #e0b341
 }
 
 /*---------------------------------------------------------------------
@@ -12180,7 +12182,7 @@ Retail-Box
 .future-services.radius-effect:hover {
     top: -15px;
     box-shadow: 0px 1px 30px 0px rgba(41, 150, 255, 0.25);
-    background: #ff6159;
+    background: #e0b341;
     color: #ffffff;
     z-index: 9;
 }
@@ -12264,7 +12266,7 @@ Retail-Box
 Testimonial two Divide
 -----------------------------------------------------------------------*/
 .testimonial-two-divide .carousel {
-    background: #ff6159;
+    background: #e0b341;
     padding-left: 60px;
     border-radius: 5px;
     overflow: hidden;
@@ -12296,7 +12298,7 @@ Testimonial two Divide
 
 .testimonial-two-divide .carousel-control-prev .fa {
     background: #fff;
-    color: #ff6159;
+    color: #e0b341;
     padding: 30px 35px;
     font-size: 30px;
     border-radius: 5px;
@@ -12306,7 +12308,7 @@ Testimonial two Divide
 }
 
 .testimonial-two-divide .carousel-control-next .fa {
-    background: #ff6159;
+    background: #e0b341;
     color: #fff;
     padding: 30px 35px;
     font-size: 30px;
@@ -12449,14 +12451,14 @@ Testimonial two Divide
     border-radius: 100px;
     text-align: center;
     margin-bottom: 0;
-    color: #ff6159;
+    color: #e0b341;
     font-size: 30px;
     padding: 0;
 }
 
 .iq-retail-video .retail-after-shape:after {
     content: "";
-    background: #ff6159;
+    background: #e0b341;
     position: absolute;
     right: -36%;
     top: 15%;
@@ -12587,7 +12589,7 @@ Testimonial two Divide
 }
 
 .vizion-recentblog.fashion-blog .iq-blog-box .iq-blog-detail .iq-blog-meta a>h6 {
-    color: #ff6159;
+    color: #e0b341;
 }
 
 .vizion-recentblog.fashion-blog .iq-blog-box .iq-blog-detail .blog-title {
@@ -12649,7 +12651,7 @@ Testimonial two Divide
 
 .title-fashion-box .sub-title {
     margin-bottom: 0px;
-    color: #ff6159;
+    color: #e0b341;
     text-transform: uppercase;
 }
 
